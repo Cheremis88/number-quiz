@@ -5,9 +5,15 @@
 <br>
 В конце теста появится окно статистики, где можно оценить отклонение своих ответов от верных.
 
-**Стек**: TS, HTML, CSS.
-
 https://github.com/Cheremis88/number-quiz/assets/139079764/d24ade52-3ae4-41ad-95d1-258ef6531c03
+
+## Что использовал
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6)
+![HTML](https://img.shields.io/badge/HTML-E34F26)
+![BEM](https://img.shields.io/badge/BEM-54616C)
+![CSS](https://img.shields.io/badge/CSS-1572B6)
+![Webpack](https://img.shields.io/badge/Webpack-8DD6F9)
+![NPM](https://img.shields.io/badge/NPM-CB3837)
 
 ## Что сделал
 - написал проект на классах
@@ -25,7 +31,6 @@ https://github.com/Cheremis88/number-quiz/assets/139079764/d24ade52-3ae4-41ad-95
 - оформить красиво
 
 ## Установка и запуск
-Две команды - и готово:
 ```
 npm install
 npm run dev
