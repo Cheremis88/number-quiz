@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Числовая викторина</title>
+</head>
+<body>
+
+  <form class="form" novalidate>
+    <span class="form__stage"></span>
+    <p class="form__question"></p>
+    <input class="form__input" type="text" maxlength="5" autocomplete="off" pattern="^[1-9][0-9]*" required>
+    <span class="form__error"></span>
+    <button class="form__button button">OK</button>
+  </form>
+
+  <section class="result" hidden>
+    <h2 class="result__title">Результат</h2>
+    <ul class="result__list"></ul>
+    <button class="result__button button">Заново</button>
+  </section>
+
+  <template id="card">
+    <li class="result__card">
+      <span class="result__count">4</span>
+      <div class="result__data">
+        <span class="result__text">Верный ответ:</span>
+        <span class="result__number"></span>
+        <br>
+        <span class="result__text">Ваш ответ:</span>
+        <span class="result__number"></span>
+        <br>
+        <span class="result__text">Разница:</span>
+        <span class="result__number result__number_color"></span>
+      </div>
+    </li>
+  </template>
+
+</body>
+</html>
